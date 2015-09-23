@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Model", "SmartCodeGen.Model\SmartCodeGen.Model.csproj", "{CAC5798E-4895-4ADF-BE72-2E242713B26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.IData", "SmartCodeGen.IData\SmartCodeGen.IData.csproj", "{1AB81C12-34B7-4A1A-9081-A53F2010FC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Common", "SmartCodeGen.Common\SmartCodeGen.Common.csproj", "{CE715259-4B1E-41ED-9E90-60A303BAAC89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC5798E-4895-4ADF-BE72-2E242713B26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC5798E-4895-4ADF-BE72-2E242713B26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC5798E-4895-4ADF-BE72-2E242713B26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC5798E-4895-4ADF-BE72-2E242713B26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB81C12-34B7-4A1A-9081-A53F2010FC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB81C12-34B7-4A1A-9081-A53F2010FC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB81C12-34B7-4A1A-9081-A53F2010FC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB81C12-34B7-4A1A-9081-A53F2010FC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
