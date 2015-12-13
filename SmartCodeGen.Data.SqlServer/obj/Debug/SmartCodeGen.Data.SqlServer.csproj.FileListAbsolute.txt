@@ -1,0 +1,11 @@
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\obj\Debug\SmartCodeGen.Data.SqlServer.csprojResolveAssemblyReference.cache
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Data.SqlServer.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Data.SqlServer.pdb
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Common.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.IData.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Model.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Common.pdb
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.IData.pdb
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\bin\Debug\SmartCodeGen.Model.pdb
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\obj\Debug\SmartCodeGen.Data.SqlServer.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Data.SqlServer\obj\Debug\SmartCodeGen.Data.SqlServer.pdb

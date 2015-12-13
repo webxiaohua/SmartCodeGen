@@ -1,0 +1,4 @@
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Model\bin\Debug\SmartCodeGen.Model.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Model\bin\Debug\SmartCodeGen.Model.pdb
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Model\obj\Debug\SmartCodeGen.Model.dll
+F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Model\obj\Debug\SmartCodeGen.Model.pdb
