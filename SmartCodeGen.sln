@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.IData", "Smart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Common", "SmartCodeGen.Common\SmartCodeGen.Common.csproj", "{CE715259-4B1E-41ED-9E90-60A303BAAC89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Factory", "SmartCodeGen.Factory\SmartCodeGen.Factory.csproj", "{6BE04FCA-60BE-4E29-A162-BFC0AF2005DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Data.MySql", "SmartCodeGen.Data.MySql\SmartCodeGen.Data.MySql.csproj", "{EAFD274D-54EE-4775-BF17-B50C22142243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCodeGen.Data.SqlServer", "SmartCodeGen.Data.SqlServer\SmartCodeGen.Data.SqlServer.csproj", "{F9F242BB-8E1A-42B1-8D80-9DE23E3411B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,18 @@ Global
 		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE715259-4B1E-41ED-9E90-60A303BAAC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE04FCA-60BE-4E29-A162-BFC0AF2005DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE04FCA-60BE-4E29-A162-BFC0AF2005DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE04FCA-60BE-4E29-A162-BFC0AF2005DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE04FCA-60BE-4E29-A162-BFC0AF2005DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFD274D-54EE-4775-BF17-B50C22142243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFD274D-54EE-4775-BF17-B50C22142243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFD274D-54EE-4775-BF17-B50C22142243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFD274D-54EE-4775-BF17-B50C22142243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F242BB-8E1A-42B1-8D80-9DE23E3411B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F242BB-8E1A-42B1-8D80-9DE23E3411B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F242BB-8E1A-42B1-8D80-9DE23E3411B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F242BB-8E1A-42B1-8D80-9DE23E3411B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
