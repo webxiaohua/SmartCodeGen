@@ -14,6 +14,10 @@ namespace SmartCodeGen.Common
             XmlFileExists();
         }
         /// <summary>
+        /// config文件夹
+        /// </summary>
+        private string configPath = string.Format("{0}Config", Func.GetAppPath());
+        /// <summary>
         /// XML文件路径
         /// </summary>
         private string XmlFile = string.Format("{0}Config\\Servers.xml", Func.GetAppPath());
@@ -22,9 +26,14 @@ namespace SmartCodeGen.Common
         /// </summary>
         private void XmlFileExists()
         {
+            DirectoryInfo dirInfo = new DirectoryInfo(configPath);
             FileInfo fiXML = new FileInfo(XmlFile);
             if (!(fiXML.Exists))
             {
+                if (!dirInfo.Exists)
+                {
+                    dirInfo.Create();
+                }
                 XDocument xelLog = new XDocument(
                     new XDeclaration("1.0", "utf-8", string.Empty),
                     new XElement("root")

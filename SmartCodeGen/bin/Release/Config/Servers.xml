@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <server>
+    <name>127.0.0.1(MySql)</name>
+    <type>MySql</type>
+    <servername>127.0.0.1</servername>
+    <database></database>
+    <uid>root</uid>
+    <pwd>fo8pv6NiwAGKtcKx813djw==</pwd>
+    <port>3306</port>
+    <file></file>
+  </server>
+  <server>
+    <name>.(SqlServer2008)</name>
+    <type>SqlServer2008</type>
+    <servername>.</servername>
+    <database></database>
+    <uid>sa</uid>
+    <pwd>IQJsprMmjHWPtcz30N6j3A==</pwd>
+    <port></port>
+    <file></file>
+  </server>
+</root>

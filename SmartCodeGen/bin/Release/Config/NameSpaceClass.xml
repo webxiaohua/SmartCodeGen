@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <namespaceclass>
+    <model>Data.Model</model>
+    <data>Data.MSSQL</data>
+    <business>Business.Applications</business>
+    <interface>Data.Interface</interface>
+    <factory>Data.Factory</factory>
+  </namespaceclass>
+</root>
