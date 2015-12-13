@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="Config_Directory.cs" />
+    <Compile Include="Config_NameSpace.cs" />
+    <Compile Include="Config_NameSpaceClass.cs" />
+    <Compile Include="Config_Servers.cs" />
+    <Compile Include="Encryption.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Func.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartCodeGen.Model\SmartCodeGen.Model.csproj">
+      <Project>{CAC5798E-4895-4ADF-BE72-2E242713B26E}</Project>
+      <Name>SmartCodeGen.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
