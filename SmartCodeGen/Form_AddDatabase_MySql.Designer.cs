@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel_mysql = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button_mysqladd = new System.Windows.Forms.Button();
             this.button_mysqltest = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.comboBox_mysql_server = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel_mysql.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +64,16 @@
             this.panel_mysql.Name = "panel_mysql";
             this.panel_mysql.Size = new System.Drawing.Size(422, 265);
             this.panel_mysql.TabIndex = 3;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(169, 182);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.Text = "记住密码";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button_mysqladd
             // 
@@ -119,6 +129,7 @@
             this.textBox_mysql_pwd.PasswordChar = '*';
             this.textBox_mysql_pwd.Size = new System.Drawing.Size(161, 21);
             this.textBox_mysql_pwd.TabIndex = 24;
+            this.textBox_mysql_pwd.Text = "root";
             // 
             // label9
             // 
@@ -168,22 +179,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(126, 12);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(131, 12);
             this.label6.TabIndex = 13;
             this.label6.Text = "设置MySql连接属性：";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(169, 182);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
-            this.checkBox1.TabIndex = 30;
-            this.checkBox1.Text = "记住密码";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form_AddDatabase_MySql
             // 

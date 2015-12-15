@@ -9,3 +9,14 @@ F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCod
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\SmartCodeGen.Factory.csprojResolveAssemblyReference.cache
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\SmartCodeGen.Factory.dll
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\SmartCodeGen.Factory.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Factory.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Factory.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Common.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.IData.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Model.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Common.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.IData.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\bin\Debug\SmartCodeGen.Model.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\ResolveAssemblyReference.cache
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\SmartCodeGen.Factory.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Factory\obj\Debug\SmartCodeGen.Factory.pdb

@@ -70,6 +70,7 @@
             // radioButton_sqlite
             // 
             this.radioButton_sqlite.AutoSize = true;
+            this.radioButton_sqlite.Enabled = false;
             this.radioButton_sqlite.Location = new System.Drawing.Point(129, 163);
             this.radioButton_sqlite.Name = "radioButton_sqlite";
             this.radioButton_sqlite.Size = new System.Drawing.Size(59, 16);
@@ -91,10 +92,12 @@
             // radioButton_mysql
             // 
             this.radioButton_mysql.AutoSize = true;
+            this.radioButton_mysql.Checked = true;
             this.radioButton_mysql.Location = new System.Drawing.Point(129, 119);
             this.radioButton_mysql.Name = "radioButton_mysql";
             this.radioButton_mysql.Size = new System.Drawing.Size(53, 16);
             this.radioButton_mysql.TabIndex = 5;
+            this.radioButton_mysql.TabStop = true;
             this.radioButton_mysql.Text = "MySql";
             this.radioButton_mysql.UseVisualStyleBackColor = true;
             // 
@@ -122,12 +125,10 @@
             // radioButton_sqlserver2008
             // 
             this.radioButton_sqlserver2008.AutoSize = true;
-            this.radioButton_sqlserver2008.Checked = true;
             this.radioButton_sqlserver2008.Location = new System.Drawing.Point(129, 75);
             this.radioButton_sqlserver2008.Name = "radioButton_sqlserver2008";
             this.radioButton_sqlserver2008.Size = new System.Drawing.Size(113, 16);
             this.radioButton_sqlserver2008.TabIndex = 2;
-            this.radioButton_sqlserver2008.TabStop = true;
             this.radioButton_sqlserver2008.Text = "Sql Server 2008";
             this.radioButton_sqlserver2008.UseVisualStyleBackColor = true;
             // 
@@ -144,7 +145,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(127, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 12);

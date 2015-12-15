@@ -70,6 +70,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\DLLs\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="SmartWinControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\SmartWinControls.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite">
@@ -277,6 +281,7 @@
   <ItemGroup>
     <Content Include="DatabaseProject.ico" />
     <Content Include="Dlls\MySql.Data.dll" />
+    <Content Include="Dlls\SmartWinControls.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

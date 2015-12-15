@@ -5,3 +5,10 @@ F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Common\bin\Debug\SmartCode
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Common\obj\Debug\SmartCodeGen.Common.csprojResolveAssemblyReference.cache
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Common\obj\Debug\SmartCodeGen.Common.dll
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen.Common\obj\Debug\SmartCodeGen.Common.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\bin\Debug\SmartCodeGen.Common.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\bin\Debug\SmartCodeGen.Common.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\bin\Debug\SmartCodeGen.Model.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\bin\Debug\SmartCodeGen.Model.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\obj\Debug\SmartCodeGen.Common.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen.Common\obj\Debug\SmartCodeGen.Common.pdb
