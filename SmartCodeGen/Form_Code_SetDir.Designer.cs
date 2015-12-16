@@ -54,7 +54,7 @@
             this.checkBox_count.AutoSize = true;
             this.checkBox_count.Checked = true;
             this.checkBox_count.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_count.Location = new System.Drawing.Point(280, 132);
+            this.checkBox_count.Location = new System.Drawing.Point(280, 171);
             this.checkBox_count.Name = "checkBox_count";
             this.checkBox_count.Size = new System.Drawing.Size(96, 16);
             this.checkBox_count.TabIndex = 21;
@@ -66,7 +66,7 @@
             this.checkBox_exists.AutoSize = true;
             this.checkBox_exists.Checked = true;
             this.checkBox_exists.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_exists.Location = new System.Drawing.Point(256, 99);
+            this.checkBox_exists.Location = new System.Drawing.Point(256, 138);
             this.checkBox_exists.Name = "checkBox_exists";
             this.checkBox_exists.Size = new System.Drawing.Size(120, 16);
             this.checkBox_exists.TabIndex = 20;
@@ -78,7 +78,7 @@
             this.checkBox_getbykey.AutoSize = true;
             this.checkBox_getbykey.Checked = true;
             this.checkBox_getbykey.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_getbykey.Location = new System.Drawing.Point(166, 132);
+            this.checkBox_getbykey.Location = new System.Drawing.Point(166, 171);
             this.checkBox_getbykey.Name = "checkBox_getbykey";
             this.checkBox_getbykey.Size = new System.Drawing.Size(96, 16);
             this.checkBox_getbykey.TabIndex = 19;
@@ -90,7 +90,7 @@
             this.checkBox_getall.AutoSize = true;
             this.checkBox_getall.Checked = true;
             this.checkBox_getall.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_getall.Location = new System.Drawing.Point(53, 132);
+            this.checkBox_getall.Location = new System.Drawing.Point(53, 171);
             this.checkBox_getall.Name = "checkBox_getall";
             this.checkBox_getall.Size = new System.Drawing.Size(96, 16);
             this.checkBox_getall.TabIndex = 18;
@@ -102,7 +102,7 @@
             this.checkBox_update.AutoSize = true;
             this.checkBox_update.Checked = true;
             this.checkBox_update.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_update.Location = new System.Drawing.Point(185, 99);
+            this.checkBox_update.Location = new System.Drawing.Point(185, 138);
             this.checkBox_update.Name = "checkBox_update";
             this.checkBox_update.Size = new System.Drawing.Size(48, 16);
             this.checkBox_update.TabIndex = 17;
@@ -114,7 +114,7 @@
             this.checkBox_delete.AutoSize = true;
             this.checkBox_delete.Checked = true;
             this.checkBox_delete.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_delete.Location = new System.Drawing.Point(117, 99);
+            this.checkBox_delete.Location = new System.Drawing.Point(117, 138);
             this.checkBox_delete.Name = "checkBox_delete";
             this.checkBox_delete.Size = new System.Drawing.Size(48, 16);
             this.checkBox_delete.TabIndex = 16;
@@ -126,7 +126,7 @@
             this.checkBox_add.AutoSize = true;
             this.checkBox_add.Checked = true;
             this.checkBox_add.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_add.Location = new System.Drawing.Point(53, 99);
+            this.checkBox_add.Location = new System.Drawing.Point(53, 138);
             this.checkBox_add.Name = "checkBox_add";
             this.checkBox_add.Size = new System.Drawing.Size(48, 16);
             this.checkBox_add.TabIndex = 15;
@@ -136,8 +136,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(29, 69);
+            this.label2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(29, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 12);
             this.label2.TabIndex = 14;
@@ -146,7 +146,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(185, 33);
+            this.radioButton2.Location = new System.Drawing.Point(185, 72);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(119, 16);
             this.radioButton2.TabIndex = 13;
@@ -158,7 +158,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(53, 33);
+            this.radioButton1.Location = new System.Drawing.Point(53, 72);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(95, 16);
             this.radioButton1.TabIndex = 12;
@@ -169,8 +169,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(29, 9);
+            this.label1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(29, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 12);
             this.label1.TabIndex = 11;
@@ -179,8 +179,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(29, 175);
+            this.label3.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(29, 214);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 12);
             this.label3.TabIndex = 22;
@@ -189,7 +189,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 207);
+            this.label4.Location = new System.Drawing.Point(50, 246);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 12);
             this.label4.TabIndex = 23;
@@ -197,14 +197,14 @@
             // 
             // textBox_dir
             // 
-            this.textBox_dir.Location = new System.Drawing.Point(117, 204);
+            this.textBox_dir.Location = new System.Drawing.Point(117, 243);
             this.textBox_dir.Name = "textBox_dir";
             this.textBox_dir.Size = new System.Drawing.Size(232, 21);
             this.textBox_dir.TabIndex = 24;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(349, 203);
+            this.button1.Location = new System.Drawing.Point(349, 242);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(33, 23);
             this.button1.TabIndex = 25;
@@ -214,7 +214,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(128, 268);
+            this.button6.Location = new System.Drawing.Point(128, 307);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 38;
@@ -224,7 +224,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(224, 268);
+            this.button7.Location = new System.Drawing.Point(224, 307);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 39;
@@ -240,7 +240,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(115, 239);
+            this.label8.Location = new System.Drawing.Point(115, 278);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 12);
             this.label8.TabIndex = 45;
@@ -250,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 317);
+            this.ClientSize = new System.Drawing.Size(498, 373);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);

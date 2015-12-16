@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form1 : DockContent
+    public partial class Form1 : SmartForm //DockContent
     {
         public static Form1 Instance = null;
         public static Form_Database form_Database = null;

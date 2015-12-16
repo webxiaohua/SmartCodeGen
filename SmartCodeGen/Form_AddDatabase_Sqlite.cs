@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using SmartCodeGen.Model;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form_AddDatabase_Sqlite : Form
+    public partial class Form_AddDatabase_Sqlite : SmartForm
     {
         private Model.DatabaseType dbType;
         private Business.Database BLL_Database = null;

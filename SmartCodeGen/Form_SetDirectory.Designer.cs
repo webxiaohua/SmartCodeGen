@@ -43,10 +43,10 @@
             this.columnHeader1});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(12, 49);
+            this.listView1.Location = new System.Drawing.Point(12, 77);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(514, 237);
+            this.listView1.Size = new System.Drawing.Size(520, 271);
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -58,7 +58,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(261, 12);
+            this.button4.Location = new System.Drawing.Point(261, 40);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(54, 23);
             this.button4.TabIndex = 19;
@@ -68,7 +68,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(198, 12);
+            this.button3.Location = new System.Drawing.Point(198, 40);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(54, 23);
             this.button3.TabIndex = 18;
@@ -80,7 +80,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 298);
+            this.ClientSize = new System.Drawing.Size(550, 360);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listView1);

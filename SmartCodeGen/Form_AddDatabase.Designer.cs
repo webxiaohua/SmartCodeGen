@@ -52,7 +52,7 @@
             this.panel_selectdbtype.Controls.Add(this.radioButton_sqlserver2008);
             this.panel_selectdbtype.Controls.Add(this.radioButton_sqlserver2005);
             this.panel_selectdbtype.Controls.Add(this.label1);
-            this.panel_selectdbtype.Location = new System.Drawing.Point(28, 9);
+            this.panel_selectdbtype.Location = new System.Drawing.Point(28, 44);
             this.panel_selectdbtype.Name = "panel_selectdbtype";
             this.panel_selectdbtype.Size = new System.Drawing.Size(377, 243);
             this.panel_selectdbtype.TabIndex = 0;
@@ -156,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 289);
+            this.ClientSize = new System.Drawing.Size(471, 345);
             this.Controls.Add(this.panel_selectdbtype);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

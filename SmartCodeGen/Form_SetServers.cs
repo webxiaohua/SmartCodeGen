@@ -6,10 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form_SetServers : Form
+    public partial class Form_SetServers : SmartForm
     {
         public Form_SetServers()
         {

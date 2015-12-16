@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel_mysql = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox_file = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button_mysqladd = new System.Windows.Forms.Button();
             this.button_mysqltest = new System.Windows.Forms.Button();
@@ -36,9 +39,6 @@
             this.textBox_pwd = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox_file = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel_mysql.SuspendLayout();
             this.SuspendLayout();
@@ -55,10 +55,36 @@
             this.panel_mysql.Controls.Add(this.textBox_pwd);
             this.panel_mysql.Controls.Add(this.label9);
             this.panel_mysql.Controls.Add(this.label6);
-            this.panel_mysql.Location = new System.Drawing.Point(18, 12);
+            this.panel_mysql.Location = new System.Drawing.Point(18, 46);
             this.panel_mysql.Name = "panel_mysql";
             this.panel_mysql.Size = new System.Drawing.Size(422, 265);
             this.panel_mysql.TabIndex = 4;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(330, 56);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(34, 23);
+            this.button1.TabIndex = 33;
+            this.button1.Text = "...";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox_file
+            // 
+            this.textBox_file.Location = new System.Drawing.Point(169, 57);
+            this.textBox_file.Name = "textBox_file";
+            this.textBox_file.Size = new System.Drawing.Size(161, 21);
+            this.textBox_file.TabIndex = 32;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(86, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "数据库文件：";
             // 
             // checkBox1
             // 
@@ -120,38 +146,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(126, 12);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(138, 12);
             this.label6.TabIndex = 13;
             this.label6.Text = "设置Sqlite连接属性：";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 12);
-            this.label1.TabIndex = 31;
-            this.label1.Text = "数据库文件：";
-            // 
-            // textBox_file
-            // 
-            this.textBox_file.Location = new System.Drawing.Point(169, 57);
-            this.textBox_file.Name = "textBox_file";
-            this.textBox_file.Size = new System.Drawing.Size(161, 21);
-            this.textBox_file.TabIndex = 32;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(330, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(34, 23);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "...";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // openFileDialog1
             // 
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 289);
+            this.ClientSize = new System.Drawing.Size(471, 345);
             this.Controls.Add(this.panel_mysql);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

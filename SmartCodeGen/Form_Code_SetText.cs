@@ -6,10 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form_Code_SetText : Form
+    public partial class Form_Code_SetText : SmartForm
     {
         private TreeNode node = null;
         public Form_Code_SetText()

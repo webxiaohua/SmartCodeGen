@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form_Code_SetDir : Form
+    public partial class Form_Code_SetDir : SmartForm
     {
         public Form_Code_SetDir()
         {

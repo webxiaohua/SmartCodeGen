@@ -109,3 +109,4 @@ E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\Generate
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.exe
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartWinControls.dll

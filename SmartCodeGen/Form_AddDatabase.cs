@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using SmartCodeGen.Model;
+using SmartWinControls.SmartControls.Forms;
 
 namespace SmartCodeGen
 {
-    public partial class Form_AddDatabase : Form
+    public partial class Form_AddDatabase : SmartForm
     {
         private DatabaseType DatabaseType = DatabaseType.Empty;
         public Form_AddDatabase()

@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(13, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 1;
@@ -52,7 +52,7 @@
             // 
             // textBox_n1
             // 
-            this.textBox_n1.Location = new System.Drawing.Point(78, 10);
+            this.textBox_n1.Location = new System.Drawing.Point(78, 40);
             this.textBox_n1.Name = "textBox_n1";
             this.textBox_n1.Size = new System.Drawing.Size(149, 21);
             this.textBox_n1.TabIndex = 2;
@@ -60,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(245, 13);
+            this.label2.Location = new System.Drawing.Point(245, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 12);
             this.label2.TabIndex = 3;
@@ -68,14 +68,14 @@
             // 
             // textBox_n2
             // 
-            this.textBox_n2.Location = new System.Drawing.Point(333, 10);
+            this.textBox_n2.Location = new System.Drawing.Point(333, 40);
             this.textBox_n2.Name = "textBox_n2";
             this.textBox_n2.Size = new System.Drawing.Size(164, 21);
             this.textBox_n2.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(157, 38);
+            this.button1.Location = new System.Drawing.Point(157, 68);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(55, 23);
             this.button1.TabIndex = 5;
@@ -85,7 +85,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(279, 38);
+            this.button2.Location = new System.Drawing.Point(279, 68);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(57, 23);
             this.button2.TabIndex = 6;
@@ -95,7 +95,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(219, 38);
+            this.button3.Location = new System.Drawing.Point(219, 68);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(54, 23);
             this.button3.TabIndex = 7;
@@ -113,10 +113,10 @@
             this.columnHeader2});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(15, 67);
+            this.listView1.Location = new System.Drawing.Point(15, 97);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(500, 246);
+            this.listView1.Size = new System.Drawing.Size(506, 289);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -132,7 +132,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(342, 38);
+            this.button4.Location = new System.Drawing.Point(342, 68);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(62, 23);
             this.button4.TabIndex = 11;
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 325);
+            this.ClientSize = new System.Drawing.Size(539, 396);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button3);

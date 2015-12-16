@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel_sqlserver = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button_sqlserver_add = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.sqlserver_server = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel_sqlserver.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,10 +60,20 @@
             this.panel_sqlserver.Controls.Add(this.sqlserver_server);
             this.panel_sqlserver.Controls.Add(this.label3);
             this.panel_sqlserver.Controls.Add(this.label2);
-            this.panel_sqlserver.Location = new System.Drawing.Point(12, 12);
+            this.panel_sqlserver.Location = new System.Drawing.Point(12, 42);
             this.panel_sqlserver.Name = "panel_sqlserver";
             this.panel_sqlserver.Size = new System.Drawing.Size(412, 265);
             this.panel_sqlserver.TabIndex = 2;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(173, 177);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.TabIndex = 26;
+            this.checkBox1.Text = "记住密码";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -169,28 +179,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(115, 11);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 12);
             this.label2.TabIndex = 12;
             this.label2.Text = "设置SqlServer连接属性：";
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(173, 177);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
-            this.checkBox1.TabIndex = 26;
-            this.checkBox1.Text = "记住密码";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // Form_AddDatabase_SqlServer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 289);
+            this.ClientSize = new System.Drawing.Size(471, 345);
             this.Controls.Add(this.panel_sqlserver);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

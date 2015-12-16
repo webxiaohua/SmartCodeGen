@@ -60,7 +60,7 @@
             this.panel_mysql.Controls.Add(this.comboBox_mysql_server);
             this.panel_mysql.Controls.Add(this.label11);
             this.panel_mysql.Controls.Add(this.label6);
-            this.panel_mysql.Location = new System.Drawing.Point(12, 12);
+            this.panel_mysql.Location = new System.Drawing.Point(12, 49);
             this.panel_mysql.Name = "panel_mysql";
             this.panel_mysql.Size = new System.Drawing.Size(422, 265);
             this.panel_mysql.TabIndex = 3;
@@ -190,7 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 289);
+            this.ClientSize = new System.Drawing.Size(471, 345);
             this.Controls.Add(this.panel_mysql);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

@@ -6,11 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using SmartWinControls.SmartControls.Forms;
 
 
 namespace SmartCodeGen
 {
-    public partial class Form_SetNameSpace : Form
+    public partial class Form_SetNameSpace : SmartForm
     {
         public Form_SetNameSpace()
         {
