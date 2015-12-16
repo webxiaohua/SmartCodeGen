@@ -64,9 +64,6 @@ F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.Fac
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.IData.pdb
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.Model.pdb
 F:\SXH\GitWorkSpace\NetCode\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.exe
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\HaoCodeBuilder.exe.config
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\HaoCodeBuilder.exe
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\HaoCodeBuilder.pdb
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\ICSharpCode.TextEditor.dll
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\MySql.Data.dll
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.Business.dll
@@ -104,9 +101,12 @@ E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCod
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.Form_SetNameSpaceClass.resources
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.Form_SetServers.resources
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.Form_TemplateTree.resources
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.Properties.Resources.resources
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.exe
-E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\HaoCodeBuilder.pdb
 E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartWinControls.dll
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.exe.config
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.exe
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\bin\Debug\SmartCodeGen.pdb
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.Properties.Resources.resources
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.exe
+E:\SXH\GitProjects\SmartCodeGen\SmartCodeGen\SmartCodeGen\obj\x86\Debug\SmartCodeGen.pdb

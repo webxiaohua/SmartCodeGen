@@ -8,8 +8,8 @@
     <ProjectGuid>{B9709B11-4606-4C92-AAD7-B8B50AB2E1B8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HaoCodeBuilder</RootNamespace>
-    <AssemblyName>HaoCodeBuilder</AssemblyName>
+    <RootNamespace>SmartCodeGen</RootNamespace>
+    <AssemblyName>SmartCodeGen</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

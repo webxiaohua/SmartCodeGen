@@ -55,7 +55,7 @@ namespace SmartCodeGen
             Model.ConfigNameSpace cnsDefault = new Common.Config_NameSpace().GetDefault();
             if (cnsDefault != null)
             {
-               
+
             }
         }
 
@@ -107,25 +107,25 @@ namespace SmartCodeGen
 
             Form_Code_Area fca_model = new Form_Code_Area(CreateCode.GetModelClass(param), string.Format("实体类({0})", param.TableName));
             fca_model.Show(Form1.Instance.dockPanel1);
-            
-           
+
+
             Form_Code_Area fca_data = new Form_Code_Area(CreateCode.GetDataClass(param), string.Format("数据类({0})", param.TableName));
             fca_data.Show(Form1.Instance.dockPanel1);
-            
+
 
             Form_Code_Area fca_business = new Form_Code_Area(CreateCode.GetBusinessClass(param), string.Format("业务类({0})", param.TableName));
             fca_business.Show(Form1.Instance.dockPanel1);
-            
+
 
             if (param.BuilderType == Model.BuilderType.Factory)
             {
                 Form_Code_Area fca_interface = new Form_Code_Area(CreateCode.GetInterfaceClass(param), string.Format("接口类({0})", param.TableName));
                 fca_interface.Show(Form1.Instance.dockPanel1);
-                
+
 
                 Form_Code_Area fca_factory = new Form_Code_Area(CreateCode.GetFactoryClass(param), string.Format("工厂类({0})", param.TableName));
                 fca_factory.Show(Form1.Instance.dockPanel1);
-                
+
             }
             this.Close();
         }

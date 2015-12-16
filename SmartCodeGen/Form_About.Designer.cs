@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.smartButton1 = new SmartWinControls.SmartControls.Button.SmartButton();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(174, 163);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "确定";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -50,18 +40,37 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(449, 36);
             this.label1.TabIndex = 2;
-            this.label1.Text = "SmartCodeGen是一个.NET三层架构代码生成器!该软件旨在简化开发人员的\r\n\r\n一些简单而重复的代码书写过程，使开发人员有更多的时间则重于业务" +
-    "逻辑的实现。";
+            this.label1.Text = "SmartCodeGen是一个.NET三层架构代码生成器!该软件旨在简化开发人员的\r\n\r\n一些简单而重复的代码书写过程，使开发人员有更多的时间则重于业务逻辑的实现" +
+    "。";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // smartButton1
+            // 
+            this.smartButton1.ForeImage = null;
+            this.smartButton1.ForeImageSize = new System.Drawing.Size(0, 0);
+            this.smartButton1.ForePathAlign = SmartWinControls.Common.ButtonImageAlignment.Left;
+            this.smartButton1.ForePathGetter = null;
+            this.smartButton1.ForePathSize = new System.Drawing.Size(0, 0);
+            this.smartButton1.Image = null;
+            this.smartButton1.Location = new System.Drawing.Point(194, 159);
+            this.smartButton1.Name = "smartButton1";
+            this.smartButton1.Size = new System.Drawing.Size(64, 29);
+            this.smartButton1.SpaceBetweenPathAndText = 0;
+            this.smartButton1.TabIndex = 3;
+            this.smartButton1.Text = "确定";
+            this.smartButton1.UseVisualStyleBackColor = true;
+            this.smartButton1.Click += new System.EventHandler(this.smartButton1_Click);
             // 
             // Form_About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 223);
+            this.ClientSize = new System.Drawing.Size(497, 279);
+            this.Controls.Add(this.smartButton1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IconLeftMargin = 0;
+            this.IconSize = new System.Drawing.Size(0, 0);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form_About";
@@ -75,7 +84,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private SmartWinControls.SmartControls.Button.SmartButton smartButton1;
     }
 }

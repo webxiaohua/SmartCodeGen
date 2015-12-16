@@ -1,2 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root />
+<root>
+  <namespaceclass>
+    <model>Test.Model</model>
+    <data>Test.Data</data>
+    <business>Test.Business</business>
+    <interface>Test.Interface</interface>
+    <factory>Test.Factory</factory>
+  </namespaceclass>
+</root>

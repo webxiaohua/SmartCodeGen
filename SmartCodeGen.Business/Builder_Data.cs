@@ -474,7 +474,7 @@ namespace SmartCodeGen.Business
             data.Append("\t\t\tstring sql = \"SELECT COUNT(*) FROM " + param.TableName + "\";\r\n");
             //data.Append("\t\t\tDBHelper dbHelper = new DBHelper();\r\n");
             data.Append("\t\t\tlong count;\r\n");
-            data.Append("\t\t\treturn long.TryParse(dbHelper.GetFieldValue(sql), out count) ? count : 0;\r\n");
+            data.Append("\t\t\treturn long.TryParse(dbHelper.ExecuteScalar(sql), out count) ? count : 0;\r\n");
             data.Append("\t\t}\r\n");
             return data.ToString();
         }

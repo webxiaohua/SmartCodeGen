@@ -21,7 +21,6 @@ namespace SmartCodeGen.Business
             StringBuilder import = new StringBuilder();
             import.Append("using System;\r\n");
             import.Append("using System.ComponentModel;\r\n");
-            import.Append("using System.ComponentModel.DataAnnotations;\r\n\r\n");
             return import.ToString();
         }
 

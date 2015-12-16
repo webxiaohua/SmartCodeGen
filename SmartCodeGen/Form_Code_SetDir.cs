@@ -25,7 +25,7 @@ namespace SmartCodeGen
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void Form_Code_SetDir_Load(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace SmartCodeGen
             Model.ConfigNameSpace cnsDefault = new Common.Config_NameSpace().GetDefault();
             if (cnsDefault != null)
             {
-                
+
             }
 
             //加载目录
@@ -57,7 +57,7 @@ namespace SmartCodeGen
         private void button6_Click(object sender, EventArgs e)
         {
             this.button6.Enabled = false;
-            if(!this.textBox_dir.Text.IsPath())
+            if (!this.textBox_dir.Text.IsPath())
             {
                 MessageBox.Show("项目目录为空或不合法!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.button6.Enabled = true;

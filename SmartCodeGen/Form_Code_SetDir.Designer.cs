@@ -240,7 +240,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(115, 278);
+            this.label8.Location = new System.Drawing.Point(58, 278);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 12);
             this.label8.TabIndex = 45;
@@ -250,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 373);
+            this.ClientSize = new System.Drawing.Size(525, 504);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
