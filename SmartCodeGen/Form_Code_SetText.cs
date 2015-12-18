@@ -74,7 +74,9 @@ namespace SmartCodeGen
                 Name2 = ""
             });
         }
-
+        /// <summary>
+        /// 生成Code
+        /// </summary>
         private void CreateCode()
         {
             TreeNode dbNode = node.Parent.Parent;
@@ -83,7 +85,7 @@ namespace SmartCodeGen
             {
                 return;
             }
-            List<Model.BuilderMethods> methods = new List<Model.BuilderMethods>();
+            List<Model.BuilderMethods> methods = new List<Model.BuilderMethods>(); //生成的函数集合
             if (checkBox_add.Checked) methods.Add(Model.BuilderMethods.Add);
             if (checkBox_count.Checked) methods.Add(Model.BuilderMethods.Count);
             if (checkBox_delete.Checked) methods.Add(Model.BuilderMethods.Delete);

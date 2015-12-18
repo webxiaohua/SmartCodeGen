@@ -47,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include=".Test.Business\user.cs" />
+    <Compile Include=".Test.Business\User.cs" />
     <Compile Include=".Test.Data\DbHelper_MySql.cs" />
-    <Compile Include=".Test.Data\user.cs" />
-    <Compile Include=".Test.Model\user.cs" />
+    <Compile Include=".Test.Data\User.cs" />
+    <Compile Include=".Test.Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

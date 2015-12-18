@@ -92,6 +92,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dlls\Data.Helper.txt" />
+    <Content Include="Dlls\DbHelper_MySql.txt" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
